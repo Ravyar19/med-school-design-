@@ -1,33 +1,15 @@
 # Project Title
 
-A brief description of your project goes here.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+Welcome to the Med School Website project! This project showcases my design skills while providing a simple and elegant solution for a medical school website. 
 
 ## Introduction
 
-Briefly introduce your project and its purpose. Explain what problem it solves or what functionality it provides.
+Project Title is a project created to represent my design skills. It serves as a platform to showcase my proficiency in creating visually appealing and functional web designs. The project focuses on simplicity, user experience, and modern design principles, aiming to provide an immersive and engaging experience for visitors.
 
 ## Technologies Used
 
-- [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Vite](https://vitejs.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+This project utilizes the following technologies to deliver a seamless user experience:
 
-Briefly explain each technology and its role in your project.
-
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/your-repository.git
-   ```
+- **React**: A powerful JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for quickly styling components.
+- **Vite**: A fast build tool that significantly speeds up the development process.
