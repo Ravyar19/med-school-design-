@@ -9,7 +9,7 @@ const Hero = () => {
           We are here to help you become the best version of yourself, inside
           and out
         </p>
-        <Button className='bg-blue-500 hover:bg-white hover:text-black px-14 text-xl py-6 rounded-xl'>
+        <Button className='bg-blue-500 w-full lg:w-fit hover:bg-white hover:text-black lg:px-14 text-xl lg:py-6 rounded-xl'>
           Apply
         </Button>
       </div>
