@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Input } from '@/components/ui/input';
 
 function Accordion({ title, content }: { title: string; content: string }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -52,7 +53,7 @@ function Accordion({ title, content }: { title: string; content: string }) {
 
 function YourComponent() {
   return (
-    <div>
+    <div className='mb-10'>
       <h1 className='text-3xl font-bold'>Get your questions answered</h1>
 
       <Accordion
@@ -67,7 +68,19 @@ function YourComponent() {
         title='What are the different between an MD and a DO'
         content='Doctors must complete a four-year undergraduate program, along with four years in medical school and three to seven years in a residency program to learn the specialty they chose to pursue. In other words, it takes between 10 to 14 years to become a fully licensed doctor'
       />
-      {/* Add more accordions as needed */}
+      <h1 className='text-3xl mt-24 font-bold'>Stay updated</h1>
+      <div className='mt-10 flex max-w-[600px] gap-6  '>
+        <Input
+          type='email'
+          className='text-slate-600 border border-slate-600 text-xl'
+          placeholder='Email'
+        />
+        <Input
+          type='email'
+          placeholder='Your First Name'
+          className='! border-slate-600 text-xl focus:outline-none'
+        />
+      </div>
     </div>
   );
 }
