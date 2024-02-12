@@ -1,3 +1,4 @@
+import FAQ from './components/FAQ/FAQ';
 import Help from './components/Help/Help';
 import Hero from './components/Hero/Hero';
 import Offer from './components/Offer/Offer';
@@ -12,6 +13,7 @@ function App() {
           <Hero />
           <Help />
           <Offer />
+          <FAQ />
         </div>
       </div>
     </div>
